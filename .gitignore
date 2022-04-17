@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+!Plugins/Advanced*Sessions/Intermediate/*/*/*/*/*/*.obj
 
 # Precompiled Headers
 *.gch
@@ -15,6 +16,7 @@
 *.so
 *.dylib
 *.dll
+!Plugins/Advanced*Sessions/Binaries/*/*.dll
 
 # Fortran module files
 *.mod
@@ -48,6 +50,7 @@ SourceArt/**/*.tga
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
+!Plugins/Advanced*Sessions/Binaries/*
 
 # Builds
 Build/*
@@ -69,6 +72,7 @@ Saved/*
 # Compiled source files for the engine to use
 Intermediate/*
 Plugins/*/Intermediate/*
+!Plugins/Advanced*Sessions/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
